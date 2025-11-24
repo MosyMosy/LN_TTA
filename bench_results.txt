@@ -1,0 +1,11 @@
+==== Inference Benchmark (B=1 vs B=32) ====
+Timestamp: 2025-09-17 11:51:04
+Device: cuda (NVIDIA GeForce RTX 2060)
+Input shape: (B, 1024, 3)
+iters=100, warmup=30, AMP=False, compile=False, TF32=True
+T(1)    = 5.438 ms
+T(32)   = 91.285 ms
+FPS@B=1 = 183.89
+FPS@B=32= 350.55
+Throughput speedup (B=32 vs B=1): x1.91
+-------------------------------------------
