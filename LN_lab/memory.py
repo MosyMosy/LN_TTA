@@ -6,7 +6,7 @@ from math import log10
 
 # --- Data ---
 methods = ["LN-TTA (Ours)", "BFTT3D", "DUA", "TENT"]
-memory_values = [1468, 7443, 76000.45, 2890]  # GB
+memory_values = [1.468, 7.443, 76.000, 2.890]  # GB
 
 # IBM Design Library palette
 palette = [

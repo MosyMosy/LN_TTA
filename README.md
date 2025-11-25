@@ -28,8 +28,4 @@ pip install "git+https://github.com/facebookresearch/pytorch3d.git"
 
 
 ## Reproducing the results
-please run:
-Set the GPU id inside the commands_lntta.sh
-bash commands_lntta.sh
-
-to reproduce all results.
+please Set the GPU id inside the commands_lntta.sh and run it to reproduce all results.
